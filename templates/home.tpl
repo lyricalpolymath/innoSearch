@@ -25,7 +25,8 @@
     <h1><span style="color:#F90">Inno</span>Search</h1>
     <h6>searching new ways of searching</h6>
 	<input id="query" name="query" type="text" class="col_11"/>
-    <button class="small orange" type"submit" value="Submit">Search</button>
+    <button class="small orange" type"submit" value="Submit">Search</button><br>
+    <span class="note">NOTE: PLEASE ALLOW POPUPS - many modes require you to allow pop-ups for this page because the search will open an external page on Google or DuckDuckGo</span>
     </div> 
     <!--<div class="col_2">&nbsp;</div>
     </div>-->

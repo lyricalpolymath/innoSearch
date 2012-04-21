@@ -122,3 +122,9 @@ margin:-1px -1px 0 -1px;
 ----------------------------*/
 
 .yellow {color:#FC0;}
+
+.note {
+	font-size:0.3em;
+	color:#999;
+	padding-left:10px;
+}
