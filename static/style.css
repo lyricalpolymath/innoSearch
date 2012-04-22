@@ -116,10 +116,43 @@ margin:-1px -1px 0 -1px;
 }
 
 
+.options .inner {
+	padding:0;
+	margin-top:-30px;
+}
+
+.conceptTable td, th{
+	vertical-align:top;
+	font-size:0.8em;
+	line-height:1.3;
+	padding-bottom:15px
+}
+
+#tabr2 .usageNote{	margin:45px 0 0 30px;}
+
+
 
 /*--------------------------
 	COLORS & TXT
 ----------------------------*/
+
+a {
+	color:#FA0;
+	text-decoration:none;
+}
+a:hover {
+	//text-decoration:underline;
+	background:Gold;
+	color:black;
+}
+
+b, strong {
+	background:none repeat scroll 0% 0% cornsilk;
+	//gold cornsilk   floralwhite blanchedalmond
+}
+
+a b,strong 			{color:#FA0;}
+a:hover b, strong 	{color:black; background:gold;}
 
 .yellow {color:#FC0;}
 
@@ -128,3 +161,37 @@ margin:-1px -1px 0 -1px;
 	color:#999;
 	padding-left:10px;
 }
+
+.usageNote {
+	margin-top:35px;
+	font-size:0.7em;
+	line-height:1.2;
+}
+
+.usageNote h6 {
+	padding:0;
+}
+
+.modeexplanation{
+	margin-top:-10px;
+}
+
+.modeexplanation h1, h2, h3, h4, h5, h6{
+	margin-top:0px;
+	padding:0;
+}
+
+.modeexplanation p{
+	margin:20px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
