@@ -42,7 +42,7 @@
     
     <!-- TAB 1: Innovating Search Experience -->
     <div id="tabr1" class="tab-content">
-      <div class="col_4">
+      <!-- --><div class="col_3 options"> 
           <fieldset>
               <legend>1. choose submode</legend>
                <input name="submode" type="radio" id="creativefibo" value="creativefibo" checked="CHECKED">
@@ -51,27 +51,32 @@
                <input name="submode" type="radio" id="trendysearch" value="trendysearch">
                <label class="inline" for="trendysearch">&nbsp;Trendy SearchMix</label>
           </fieldset>
+         </div>
+         <div class="col_4 options"> 
           <fieldset>
               <legend>2. choose Search Engine</legend>
               <select id="select1" name="chosenSE" style="width:100%">
               <option value="se_google" selected>Google</option>
               <option value="se_dduckgo">duckduckgo</option>
               </select>
-          </fieldset>
+          </fieldset>    
+      </div> 
+      <div class="col_5 usageNote options">
+      	<h6>- WHEN TO USE:</h6> These modes are usefull almost only in the very first phase of a project, when you are looking for ideas and inspiration. If you use it in any other occasion you might have a hard time understanding it's full potential.<br><br>
+      	<h6>- HOW TO USE:</h6> please allow popups for the page as the query will be open in an external page 
       </div>
-      <div class="col_8">
-          <p><br>
+      <div class="col_12 modeexplanation">
           <h4>Associative Activation</h4>
           <h5>enhancing creativity</h5>
-          One of the most important mechanisms of the creative thought is that of connecting distant ideas. While Today Search Engines abide to the paradigm of Convergent Thinking, that is all about focus, analysis and attention, they don't help in performing "Divergent Thinking" searches that can instead help you generate unexpected thoughts and ideas. InnoSearch, proposes a couple of solution to this missing functionality of normal search Engines.<br><br>
+          One of the most important mechanisms of the creative thought is that of connecting distant ideas. While Today Search Engines abide to the paradigm of Convergent Thinking, that is all about focus, analysis and attention, they don't help in performing "Divergent Thinking" searches that can instead help you generate unexpected thoughts and ideas. InnoSearch, proposes a couple of solution to this missing functionality of normal search Engines.
+          <p>
           <h6>Creative Fibo Remix</h6>
           There are several ways in which divergent thinking can happen, but one of the most important ones is that two different, very distant, thoughts can briefly overlap in our working memory, and if they make a meaningful solution to a given problem we are currently facing, they can generate the "Eureka moment" and create new neural networks in our brains.
           <br>
           The <i>"Creative Fibo Remix"</i> Mode simulates this neural process by <b>remixing your query with somebody elses query</b>, and launching this enhanced query on the search engine of your choice. This is therefore your gateway to unexpected solutions: even if they might seem meaningless if you try at the right moment and with the right questions, you might <b>find something surprising</b>.
           Another important innovative aspects is that through this remixing process, innoSearch becomes the <b>first collaborative search engine.</b><br>          
-          <b>WARNING</b> NOTE: in order to use it you need to allow popups for this website - this is used only to open the requested search on another page.<br>
-         	If you are courious you can also <a href="/otherqueries">see all queries</a>  
           </p>
+         	If you are courious you can also <a href="/otherqueries">see all queries</a> that are parsed to remix with the Creative Fibo Remix Mode
           <p>
          <h6>Trendy SearchMix</h6>
          Still on the remixing paradigm of search, this mode will crawl the <a href="http://www.google.com/trends/hottrends?sa=X" target="_trends"><b>Google Trends</b></a> page for the <b>current day</b>, select one of the top 20 searches for the day and <b>enhance you query</b> with it, launching it in a new browser tab.<br>This is just one of the possible remixes that can be used to creatively boost your search results.
@@ -87,21 +92,23 @@
     
     <!-- TAB 2 : Innovating Ranking Algorithms -->
     <div id="tabr2" class="tab-content">
-    	<div class="col_4">
+    	<div class="col_4 options">
           <fieldset>
               <legend>1. choose submode</legend>
                <input name="submode" type="radio" id="inversepopularity" value="inversepopularity">
                <label class="inline" for="inversepopularity">&nbsp;InversePopularity</label>
                <br>
                <input name="submode" type="radio" id="distantremixer" value="distantremixer" disabled>
-               <label class="inline" for="distantremixer">&nbsp;Distant Word Remixer <span class"comingsoon">(coming soon)</span></label>
+               <label class="inline" for="distantremixer">&nbsp;Distant Word Remixer</label>
            </fieldset>
       </div>
-    	<div class="col_8">
-          <p><br>
+      <div class="col_6 usageNote options">
+      	<h6>- WHEN TO USE:</h6> These modes are usefull almost only in the very first phase of a project, when you are looking for ideas and inspiration. If you use it in any other occasion you might have a hard time understanding it's full potential.<br><br>
+      	<h6>- HOW TO USE:</h6> please allow popups for the page as the query will be open in an external page 
+      </div>
+    	<div class="col_12 modeexplanation">
           <h4>Unexpected Winners</h4>
           <h5>hijacking Ranking Algorithms</h5>
-          </p>
           <p>
           Ranking is where the most part of the Search Engine Art happens: the wicked algorithm selects, trims, filters, and looks for the "best" page according to a complex series of parameters and rules. But is he really selecting the "best" pages?           
           That is only according to a certain point of view, a very narrow one. When getting these pages the ranking algorithm has exercised a decision power that could potentially leave out interesting results.
@@ -117,7 +124,7 @@
     
     <!-- TAB 3: Innovating How Things are Indexed -->
     <div id="tabr3" class="tab-content">
-    	<div class="col_4">
+    	<div class="col_4 options">
           <fieldset>
               <legend>1. choose submode</legend>
                <input name="submode" type="radio" id="letters" value="letters" disabled>
@@ -127,11 +134,9 @@
                <label class="inline" for="feelings">&nbsp;Feelings <span class"comingsoon">(coming soon)</span></label>
           </fieldset>
       </div>
-    	<div class="col_8">
-          <p><br>
+    	<div class="col_12 modeexplanation">
           <h4>Curated Index</h4>
           <h5>rethinking the keywords</h5>
-          </p>
           <p>
          At first sight it seems fearly obvious: what search engines ought to do is store the single keywords found in a page, maybe count them, and then pass it on to the ranking algorithm. Is it really just like that? Can we think of anything else that can be done to the contents of a page or that is worth extracting.<br><br> Read the Concept Tab below to understand and see a few of the coming options.
           </p>
@@ -165,14 +170,14 @@
          <h4>Concept + Ideas</h4>
                 A Search Engine is made of different parts, each with it's own unique functionality and inner working. For each of these parts I wen't on and asked how it worked today and if it was possible to change something, if it was possible to innovate the search engine in at least one of its parts.
                 The following table lists the parts that make up a (simplified) and generic search engine and for each part I describe some possible Ideas that can be implemented and some that currently can be tested in innoSearch.<br><br>
-                 <table cellspacing="0" cellpadding="0" class="tight">
+                 <table cellspacing="0" cellpadding="0" class="tight conceptTable">
         <thead><tr>
             <th>S.E.Part</th>
             <th>THE DATA</th>
             <th>THE CRAWLER</th>
-            <th>THE INDEX</th>
-            <th>THE RANKING</th>
-            <th>THE SEARCH INTERFACE</th>
+            <th width="20%">THE INDEX</th>
+            <th width="25%">THE RANKING</th>
+            <th width="20%">THE SEARCH INTERFACE</th>
             <th>THE RESULTS</th>
         </tr></thead>
         <tbody><tr>
@@ -204,7 +209,7 @@
             <td>Can we innovate this? maybe it's just a very technical intervention that allows to speed up the research. I'm very new to search engines and this is a blind spot for me. The only idea I can come up  with is "FETCH_ME_THIS" (a web app that allows you to create your own crawler, configure it's parameters and launch it on the web)</td>
             <td>Can We separate something more than words to analyze?<br>can we index by: single letters,full sentences,bolds or titles,exctract a summary, analyze the mood independently from the appearing keywords, specific sentences such as "I Love", or "I Hate" etc.</td>
             <td><strong>-Is popularity ovverated? try the "Inverse Popularity" Mode in innoSearch</strong><br>
-            - instead of counting keywords, rerankaccording to specific subkeywords or categories (ie emotions: find the most joyfull page - this is a coming soon in innoSearch :))<br>
+            - instead of counting keywords, rerank according to specific sub-keywords or categories (ie emotions: find the most joyfull page - this is a coming soon in innoSearch :))<br>
             - people rank (already exists ie Reddit)<br>
             - rank according to location of user...etc. 
             </td>
